@@ -18,5 +18,4 @@ plaintext = cipher.decrypt(ciphertext)
 # Write the decrypted content to a file
 with open('decrypted_flag.txt', 'wb') as f:
     f.write(plaintext)
-
 print("Decryption successful! Check 'decrypted_flag.txt' for the result.")
